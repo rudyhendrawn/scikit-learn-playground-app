@@ -1,9 +1,11 @@
+![GitHub contributors](https://img.shields.io/github/contributors/rudyhendrawn/scikit-learn-playground-app?style=for-the-badge) ![GitHub stars](https://img.shields.io/github/stars/rudyhendrawn/scikit-learn-playground-app?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/rudyhendrawn/scikit-learn-playground-app?style=for-the-badge) ![GitHub issues](https://img.shields.io/github/issues/rudyhendrawn/scikit-learn-playground-app?style=for-the-badge) !![GitHub license](https://img.shields.io/github/license/rudyhendrawn/scikit-learn-playground-app?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/rudyhendrawn/scikit-learn-playground-app?style=for-the-badge)
+
+
 #### About The Project
 Originaly, this repo is created for my undergraduate students to learn and experiment with machine learning algorithms.
 
 <!-- Insert image-->
 ![img](images/main_app.png "Front Page")
-
 
 ##### Built with
 - Python
