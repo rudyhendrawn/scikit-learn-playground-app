@@ -61,6 +61,10 @@ You need Python 3.8 or higher and then it is recommended that you need to prepar
     ```
     streamlit run app.py
     ```
+### To do
+- Add more machine learning algorithms e.g. SVM, Boosting Tree, Naive Bayes, etc.
+- Add another machine learning problem e.g. regression.
+- Optimize the web app
 
-#### License
+### License
 This project is licensed under the MIT License.
