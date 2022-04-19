@@ -16,51 +16,31 @@ Originaly, this repo is created for my undergraduate students to learn and exper
 - Plotly
 
 ### Getting Started
-##### 1. Prerequisites
-You need Python 3.8 or higher and then it is recommended that you need to prepare your Python virtual environment in your local directory. Whether you use pip or conda, you need to install the following packages:
 
-- Install Streamlit
-    ```
-    # with pip
-    pip install streamlit
+Assume you have conda installed, run this commands.
 
-    # with anaconda or miniconda
-    conda install -c conda-forge streamlit
+- Clone the repo
     ```
-- Install Scikit-Learn
+    git clone https://github.com/rudyhendrawn/scikit-learn-playground-app.git
+    ```
+- Change directory to repo
     
     ```
-    # with pip
-    pip install scikit-learn
-
-    # with anaconda or miniconda
-    conda install -c conda-forge scikit-learn
+    cd scikit-learn-playground-app
     ```
-- Install Pandas
+- Create environment and dependencies
     ```
-    # with pip
-    pip install pandas
-
-    # with anaconda or miniconda
-    conda install -c conda-forge pandas
+    conda create env -f environment.yml
     ```
-- Install Plotly           
+- Activate environment   
     ```
-    # with pip
-    pip install plotly
-
-    # with anaconda or miniconda
-    conda install -c conda-forge plotly
+    conda activate rudyapp
     ```
-
-##### 2. Usage
-- clone this repo
-    ```gh repo clone rudyhendrawn/scikit-learn-playground-app```
-- go the application directory
-- run the following command in your terminal
+- Run app
     ```
     streamlit run app.py
     ```
+    
 ### To do
 - Add more machine learning algorithms e.g. SVM, Boosting Tree, Naive Bayes, etc.
 - Add another machine learning problem e.g. regression.
