@@ -34,7 +34,7 @@ Assume you have conda installed, run this commands.
     ```
 - Activate environment   
     ```
-    conda activate rudyapp
+    conda activate play-sklearn
     ```
 - Run app
     ```
