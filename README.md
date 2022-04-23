@@ -42,9 +42,17 @@ Assume you have conda installed, run this commands.
     ```
     
 ### To do
-- Add more machine learning algorithms e.g. SVM, Boosting Tree, Naive Bayes, etc.
-- Add another machine learning problem e.g. regression.
-- Optimize the web app
+| Features| Status |
+| :--- | :----: |
+| Optimize the web app | :white_check_mark: |
+| Add more machine learning algorithms e.g. SVM, Boosting Tree, Naive Bayes, etc. | :soon: |
+| Add another machine learning problem e.g. regression. | :soon: |
+| Add more classification metrics e.g. precision, recall, f1 score, etc. | :soon: |
+
+
+if you like this repository, please consider giving a :star: to show your support.
 
 ### License
 This project is licensed under the MIT License.
+
+
