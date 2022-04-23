@@ -134,7 +134,7 @@ def prediction_dataframe(prediction_results):
     df = pd.DataFrame()
     pass
 
-@st.cache(suppress_st_warning=True, show_spinner=True)
+# @st.cache(suppress_st_warning=True, show_spinner=True)
 def train_and_predict(classifier=None, X_train=None, X_test=None, y_train=None, y_test=None) -> object:
     clf = classifier
     bt_train = st.button('Train and Predict')
