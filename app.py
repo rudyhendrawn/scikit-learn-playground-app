@@ -134,6 +134,7 @@ def prediction_dataframe(prediction_results):
     df = pd.DataFrame()
     pass
 
+@st.cache(suppress_st_warning=True, show_spinner=True)
 def train_and_predict(classifier=None, X_train=None, X_test=None, y_train=None, y_test=None) -> object:
     clf = classifier
     bt_train = st.button('Train and Predict')
@@ -144,6 +145,7 @@ def train_and_predict(classifier=None, X_train=None, X_test=None, y_train=None, 
         st.write('Accuracy: {:.2f}'.format(acc_score))
     return clf
 
+@st.cache(suppress_st_warning=True, show_spinner=True)
 def split_dataset(dataframe, test_size=0.2) -> object:
     X = dataframe.drop('target', axis=1)
     y = dataframe['target']

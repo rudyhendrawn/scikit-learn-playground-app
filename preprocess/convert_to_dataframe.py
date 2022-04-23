@@ -1,7 +1,8 @@
 # Create a class that convert sklearn datasets to pandas dataframe
 # The dataframe should contain all dataset features and target
-
 import pandas as pd
+import streamlit as st
+
 # Classfication Datasets
 from sklearn.datasets import load_iris, load_wine, load_breast_cancer
 # Regression Datasets
@@ -12,6 +13,7 @@ class ConvertDataset:
         self.data = data
         self.dataframe = None
 
+    @st.cache(suppress_st_warning=True)
     def convert_to_dataframe(self) -> pd.DataFrame:
         if self.data == 'iris':
             self.dataframe = pd.DataFrame(load_iris().data, columns=load_iris().feature_names)
